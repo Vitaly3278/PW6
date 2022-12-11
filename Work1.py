@@ -12,4 +12,4 @@ def dot_range(dot_1, dot_2):
 dot_1 = list(map(int, input('Введите две координаты первой точки A, через пробел: ').split()))
 dot_2 = list(map(int, input('Введите две координаты второй точки B, через пробел: ').split()))
 
-print(dot_range(dot_1, dot_2))
+print(f'Расстояние между точками равно: {dot_range(dot_1, dot_2)}')
